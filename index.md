@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+## Welcome to... The Moon [Page of Shooting]!
 
-You can use the [editor on GitHub](https://github.com/aclx-kspaeth/ShootTheMoon/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+"Shoot The Moon" is a... game(?) that is generously provided by Kelly at the Brookfield, WI Accelogix office. The goal is to get the best composite score possible with a maximum of five tries.
+This website is a preview of the functionality to come. Not everything you see here is finalized. Please contact Kevin if you have any questions/suggestions.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Game Rules
 
-### Markdown
+- Each person gets 5 tries per day.
+- Only the first 5 tries will be scored.
+- If a player forfeits a try, the incur a -250 penalty.
+- If the ball doesn't land in a bucket, a score of 0 will be awarded.
+- All scores must be witnessed by another competitor to count.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Daily Results - Updated 12/11/2018
 
-```markdown
-Syntax highlighted code block
+### See the winner!
+<object height="335" width="650" data="graphs/12112018/12112018-pie.html"> 
+    Your browser doesn’t support the object tag. 
+</object>
 
-# Header 1
-## Header 2
-### Header 3
+### Compare scores on each turn!
+<object height="335" width="650" data="graphs/12112018/12112018-bar.html"> 
+    Your browser doesn’t support the object tag. 
+</object>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aclx-kspaeth/ShootTheMoon/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Track individual performance!
+<object height="335" width="650" data="graphs/12112018/12112018-box.html"> 
+    Your browser doesn’t support the object tag. 
+</object>
