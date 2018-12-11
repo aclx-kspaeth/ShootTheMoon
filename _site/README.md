@@ -2,7 +2,7 @@
 
 "Shoot The Moon" is a... game(?) that is generously provided by Kelly at the Brookfield, WI Accelogix office. The goal is to get the best composite score possible with a maximum of five tries.
 
-This website is a preview of the functionality to come. Not everything you see here is finalized. Please contact the site owner if you have any suggestions.
+This website is a preview of the functionality to come. Not everything you see here is finalized. Please contact the site owner if you have any suggestions.teset
 
 ## Daily Shoot The Moon Scores
 
