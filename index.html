@@ -7,6 +7,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="dependencies/bootswatch-darkly/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/autocomplete.css">
   <!-- END CSS -->
 </head>
 
@@ -18,7 +19,6 @@
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
@@ -31,16 +31,18 @@
           <a class="nav-link" href="#">About</a>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      <form class="form-inline my-2 my-lg-0" autocomplete="off">
+        <div class="autocomplete">
+          <input id="search-input" class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button id="search-button" class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </div>
       </form>
     </div>
   </nav>
   <!-- END NAVBAR -->
 
   <!-- BEGIN CONTAINER -->
-  <div class="container">
+  <div id="main-container" class="container">
     <div class="row">
       <div class="col-lg-12">
         <div class="alert alert-dismissible alert-warning">
@@ -73,14 +75,14 @@
     <div class="row">
       <div class="col-lg-6">
         <div class="card border-secondary mb-3">
-          <div class="card-header">Pie Chart - Data For 12/14/2018</div>
+          <div class="card-header">See who won!</div>
           <div class="card-body">
-            <h4 class="card-title">See who won!</h4>
+            <h4 class="card-title">Total Score Per Player</h4>
             <p class="card-text">
               This pie chart shows the total score for each individual competitor on the specified date. A larger slice
               indicates a better score.
             </p>
-            <object data="assets/graphs/12142018/12142018-pie.html" width="100%" height="350rem">
+            <object id="pie-chart" data="assets/graphs/12142018/12142018-pie.html" width="100%" height="350rem">
               Your browser doesn’t support the object tag.
             </object>
           </div>
@@ -95,7 +97,7 @@
               This bar graph shows what each individual competitor scored on every turn. A higher (taller) bar
               indicates a better score.
             </p>
-            <object data="assets/graphs/12142018/12142018-bar.html" width="100%" height="350rem">
+            <object id="bar-graph" data="assets/graphs/12142018/12142018-bar.html" width="100%" height="350rem">
               Your browser doesn’t support the object tag.
             </object>
           </div>
@@ -110,7 +112,7 @@
               This box plot shows aggregate information about each individual competitor's score. Information contained
               includes medians, quartiles, etc.
             </p>
-            <object data="assets/graphs/12142018/12142018-box.html" width="100%" height="350rem">
+            <object id="box-plot" data="assets/graphs/12142018/12142018-box.html" width="100%" height="350rem">
               Your browser doesn’t support the object tag.
             </object>
           </div>
@@ -133,7 +135,8 @@
       <div class="col-lg-12">
         <div class="jumbotron">
           <h1 class="display-3">Sponsored by La Croix &reg;</h1>
-          <p class="lead">For those moments in life when you shouldn't settle foy anything less than PURE&trade; INNOCENCE&trade;</p>
+          <p class="lead">For those moments in life when you shouldn't settle foy anything less than PURE&trade;
+            INNOCENCE&trade;</p>
           <hr class="my-4">
           <p>La Croix &reg; is a proud sponsor of the Shoot The Moon Pro Circuit and its affiliates.</p>
           <img src="assets/media/la-croix.jpg" width="100%" height="auto">
@@ -146,6 +149,7 @@
   <!-- JS -->
   <script src="dependencies/jquery-3.3.1/js/jquery-3.3.1.min.js"></script>
   <script src="dependencies/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/autocomplete.js"></script>
   <!-- END JS-->
 </body>
 
