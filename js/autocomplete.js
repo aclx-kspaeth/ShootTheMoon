@@ -1,4 +1,4 @@
-var autoCompleteDates = ["December 11, 2018", "December 14, 2018"];
+var autoCompleteDates = ["December 10, 2018", "December 11, 2018", "December 12, 2018", "December 13, 2018", "December 14, 2018"];
 var searchInput = document.getElementById("search-input");
 var hasError = false;
 
